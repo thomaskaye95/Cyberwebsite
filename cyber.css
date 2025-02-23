@@ -1,0 +1,36 @@
+body {
+  background-color: #0cbdcb;
+}
+
+h1{
+color: navy;
+text-align: center;
+}
+
+h2{
+color: navy;
+text-align: center;
+}
+
+h3{
+color: navy;
+}
+
+img {
+  width: 250px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.column {
+  float: right;
+  width: 32%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
